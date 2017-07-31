@@ -1,5 +1,6 @@
 const initialState = {
-  filterBy: ''
+  filterBy: '',
+  frameworks: ['React', 'Angular', 'Vue', 'Ember']
 };
 
 export default ( state = initialState, action ) => {
